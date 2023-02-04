@@ -1,0 +1,11 @@
+name: thankful-thoughts
+description: This app is developed by https://github.com/hqasmei
+ignoreFiles: .git .next node_modules
+modules:
+  - name: app
+    language: nodejs18.x
+    web: next.standalone
+    description: Thankful Thoughts NextJS app
+    functions:
+      - name: entry
+        description: the entry point for the function
